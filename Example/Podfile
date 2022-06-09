@@ -1,0 +1,15 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+
+
+target 'Example' do
+  use_frameworks!
+  pod 'AFNetworking'
+  pod 'SDWebImage', '~> 5.0.5'
+  pod 'MBProgressHUD', '~> 1.1.0'
+  pod 'Toast', '~> 4.0.0'
+  pod 'YYKit'
+  pod 'WechatOpenSDK','~> 1.8.6.2'
+end

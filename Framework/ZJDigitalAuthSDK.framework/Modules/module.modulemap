@@ -1,0 +1,6 @@
+framework module ZJDigitalAuthSDK {
+  umbrella header "ZJDigitalAuthSDK.h"
+
+  export *
+  module * { export * }
+}
